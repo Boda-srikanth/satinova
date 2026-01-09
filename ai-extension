@@ -1,0 +1,248 @@
+<div class="container">
+    <!-- What It Does -->
+    <section class="section">
+        <h2 class="section-title"><i class="fas fa-star"></i> What This Extension Does</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 30px;">
+            Hey there! Are you building apps with MIT App Inventor and wish they could be smarter? More interactive? More creative? This extension is exactly what you've been looking for! It brings professional-grade artificial intelligence capabilities right into your block-based coding environment.
+        </p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Intelligent Conversations</h3>
+                <p>Add a smart assistant to your app that can answer questions, help with homework, tell stories, or just chat about anything!</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>AI Image Generation</h3>
+                <p>Turn text descriptions into beautiful, original artwork. Describe anything you can imagine, and watch it come to life!</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Easy Integration</h3>
+                <p>No complex setup or confusing APIs. Just drag the blocks, add your API key, and you're ready to go!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <h2 class="section-title"><i class="fas fa-cogs"></i> How It Works - Simple Blocks, Amazing Results</h2>
+        
+        <p style="margin-bottom: 25px; font-size: 1.1rem;">
+            The beauty of this extension is how simple it makes advanced AI. Here's everything you need to know:
+        </p>
+        
+        <h3 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6rem;">
+            <i class="fas fa-comment-dots"></i> The Chat Block - Your AI Assistant
+        </h3>
+        <p style="margin-bottom: 15px;">
+            Want to add a helpful assistant to your app? This block lets users have natural conversations with AI. Perfect for educational apps, customer support, or creative writing tools!
+        </p>
+        
+        <div class="code-block">
+            <span class="code-comment">// Example: Ask any question and get a helpful response</span><br>
+            <span class="code-keyword">Chat</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">prompt</span>: <span class="code-string">"What are some tips for learning to code?"</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">apiKey</span>: <span class="code-string">"your-personal-api-key-here"</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">maxTokens</span>: <span class="code-string">"350"</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">informative</span>: <span class="code-keyword">true</span>
+        </div>
+        
+        <h3 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6rem;">
+            <i class="fas fa-image"></i> The GenerateImage Block - Your AI Artist
+        </h3>
+        <p style="margin-bottom: 15px;">
+            Imagine being able to create custom illustrations for stories, generate artwork for games, or visualize ideas instantly. This block makes it possible!
+        </p>
+        
+        <div class="code-block">
+            <span class="code-comment">// Example: Create an image from your imagination</span><br>
+            <span class="code-keyword">GenerateImage</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">prompt</span>: <span class="code-string">"A friendly robot teaching kids about planets in a colorful classroom"</span><br>
+            &nbsp;&nbsp;<span class="code-keyword">apiKey</span>: <span class="code-string">"your-personal-api-key-here"</span>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section class="section">
+        <h2 class="section-title"><i class="fas fa-rocket"></i> Quick Start Guide</h2>
+        
+        <div style="background: #f0f4ff; padding: 25px; border-radius: 10px; margin: 25px 0;">
+            <h3 style="color: #764ba2; margin-bottom: 15px; font-size: 1.4rem;">
+                Step 1: Get Your Free API Key
+            </h3>
+            <p>
+                1. Visit <a href="https://platform.openai.com/" style="color: #667eea; font-weight: bold;">OpenAI's platform</a><br>
+                2. Sign up for an account (new users often get free credits!)<br>
+                3. Go to "API Keys" and create a new secret key<br>
+                4. Copy your key - you'll need it for the extension
+            </p>
+        </div>
+        
+        <div style="background: #f0f4ff; padding: 25px; border-radius: 10px; margin: 25px 0;">
+            <h3 style="color: #764ba2; margin-bottom: 15px; font-size: 1.4rem;">
+                Step 2: Download & Install the Extension
+            </h3>
+            <p>
+                1. Download the extension file using the button below<br>
+                2. Open your MIT App Inventor project<br>
+                3. Go to the "Extensions" panel<br>
+                4. Click "Import extension" and select the downloaded file
+            </p>
+        </div>
+        
+        <div style="background: #f0f4ff; padding: 25px; border-radius: 10px; margin: 25px 0;">
+            <h3 style="color: #764ba2; margin-bottom: 15px; font-size: 1.4rem;">
+                Step 3: Start Building Amazing Apps!
+            </h3>
+            <p>
+                1. Find the new OpenAI blocks in your palette<br>
+                2. Drag them into your project<br>
+                3. Connect the events to handle responses<br>
+                4. Test your AI-powered app!
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <h2 class="section-title"><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Is this really free to use?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                The extension itself is completely free! You'll need an OpenAI account, which often provides free trial credits to get started. After that, usage is based on OpenAI's pricing, which is very affordable for most projects.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Why are the AI responses sometimes cut off?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                This happens when the "maxTokens" value is set too low. Think of tokens as word pieces - for a good paragraph response, try setting it to 300-500. Increase it for longer, more detailed answers!
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Can I use this for my school project?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Absolutely! This is perfect for educational projects. You could build a homework helper, a language learning app, a creative writing assistant, or a science tutor. The possibilities are endless!
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>What kind of apps can I build with this?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Interactive story apps with generated illustrations</li>
+                    <li>Study assistants that explain any topic</li>
+                    <li>Creative writing tools with AI suggestions</li>
+                    <li>Language practice chatbots</li>
+                    <li>Art generators for game development</li>
+                    <li>Custom greeting card creators</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-box">
+        <h2>Ready to Transform Your App Inventor Projects?</h2>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.95;">
+            Download the extension now and start building the next generation of intelligent apps. No complex coding required—just your creativity and this powerful tool!
+        </p>
+        <a href="https://labs.satinova.in/com.gordonlu.openai.aix" class="download-button">
+            <i class="fas fa-magic"></i> Download the AI Extension
+        </a>
+        <p style="margin-top: 20px; font-size: 0.9rem;">
+            Version 2.0 | Released January 15, 2023
+        </p>
+    </section>
+
+    <!-- Final Note -->
+    <section class="section" style="text-align: center;">
+        <h2 class="section-title"><i class="fas fa-lightbulb"></i> Your Ideas, Powered by AI</h2>
+        <p style="font-size: 1.3rem; margin-bottom: 20px;">
+            This extension isn't just about adding features to your apps—it's about unlocking possibilities. It's about creating experiences that were previously only possible for professional developers with years of coding experience.
+        </p>
+        <p style="font-size: 1.1rem; color: #666;">
+            Whether you're a student, teacher, hobbyist, or aspiring entrepreneur, you now have the power to build intelligent, interactive, and creative applications. What will you create today?
+        </p>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p style="margin-top: 20px;">
+            Made with ❤️ for the App Inventor community | Extension created by Satinova
+        </p>
+        <p style="margin-top: 10px; font-size: 0.9rem; color: #888;">
+            This extension integrates with OpenAI's API. Please review OpenAI's terms of service and usage policies.
+        </p>
+    </div>
+</footer>
+
+<script>
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const icon = question.querySelector('i');
+            
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            } else {
+                answer.style.display = 'block';
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            }
+        });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
